@@ -1,0 +1,7 @@
+*~
+.mypy_cache/
+/.pylint/
+/build/
+/gamap.egg-info/
+/dist/
+__pycache__/
