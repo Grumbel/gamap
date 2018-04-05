@@ -29,6 +29,10 @@ setup(name='gamap',
           ],
       },
       packages=['gamap'],
+      data_files=[
+          ('share/icons/hicolor/48x48/apps', ['gamap.png']),
+          ('share/applications', ['gamap.desktop'])
+      ],
 )
 
 

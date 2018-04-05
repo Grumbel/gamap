@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=gamap
+Comment=Gamma App
+GenericName=Gamma App
+Exec=gamap
+Icon=gamap
+Terminal=false
+StartupNotify=true
+Type=Application
