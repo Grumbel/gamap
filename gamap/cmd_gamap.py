@@ -75,7 +75,7 @@ def main(argv: List[str]) -> None:
 
     signal.signal(signal.SIGINT, signal.SIG_DFL)
     app = QApplication([])
-    trayicon = QSystemTrayIcon(QIcon.fromTheme("display"))
+    trayicon = QSystemTrayIcon(QIcon.fromTheme("gamap"))
     trayicon.setToolTip("Set Gamma")
 
     menu = QMenu()
